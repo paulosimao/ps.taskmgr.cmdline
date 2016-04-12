@@ -1,0 +1,1 @@
+node /srv/ps.taskmgr.cmdline/index.js "$@"
