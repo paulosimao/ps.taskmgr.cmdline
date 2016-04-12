@@ -90,6 +90,8 @@ cmds.prototype.ur   = function () {
 
 }
 cmds.prototype.help = function () {
+	console.log('==============================================');
+	console.log('ps.taskmgr.cmdline - Simple TODO in Javascript');
 	console.log('HELP');
 	for (i in this.helpmsg) {
 		console.log(i + '\t' + this.helpmsg[i]);
